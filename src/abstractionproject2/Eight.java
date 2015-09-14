@@ -21,4 +21,7 @@ public class Eight implements Card {
     public void value() {
         value = 8;
     }
+           public void printOut(){
+           System.out.println(face +  " " + value);
+       }
 }

@@ -12,6 +12,6 @@ package abstractionproject2;
 public interface Card {
     public abstract void face();
     public abstract void value();
-
+    public abstract void printOut();
     
 }

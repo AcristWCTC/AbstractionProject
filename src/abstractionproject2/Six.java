@@ -21,4 +21,7 @@ public class Six implements Card {
     public void value() {
         value = 6;
     }
+           public void printOut(){
+           System.out.println(face +  " " + value);
+       }
 }

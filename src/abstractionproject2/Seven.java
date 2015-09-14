@@ -21,4 +21,7 @@ public class Seven implements Card {
     public void value() {
         value = 7;
     }
+           public void printOut(){
+           System.out.println(face +  " " + value);
+       }
 }

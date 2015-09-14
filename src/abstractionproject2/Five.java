@@ -21,4 +21,7 @@ public class Five implements Card {
     public void value() {
         value = 5;
     }
+           public void printOut(){
+           System.out.println(face +  " " + value);
+       }
 }

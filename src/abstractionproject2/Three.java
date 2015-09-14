@@ -21,4 +21,7 @@ public class Three implements Card {
     public void value() {
         value = 3;
     }
+           public void printOut(){
+           System.out.println(face +  " " + value);
+       }
 }

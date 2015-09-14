@@ -20,6 +20,9 @@ public class Ace implements Card {
        public void value(){
            value = 11;
        }
+       public void printOut(){
+           System.out.println(face +  " " + value);
+       }
     
     
 }

@@ -31,7 +31,9 @@ public class Run {
             new Two()
         };
         
-        System.out.println();
+            for(Card c : cards) {
+            c.printOut();
+            }
 
     }
 }

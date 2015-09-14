@@ -21,4 +21,7 @@ public class Jack implements Card {
     public void value() {
         value = 10;
     }
+           public void printOut(){
+           System.out.println(face +  " " + value);
+       }
 }
