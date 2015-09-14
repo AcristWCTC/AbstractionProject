@@ -12,7 +12,7 @@ package abstractionproject;
 public class StartUp {
     public static void main(String[] args) {
         
-        Card King = new CardConstructor("King","Red","Hearts",10);
+        Card King = new CardConstructor("King","Red","Heart",10);
 
         
         
