@@ -10,7 +10,7 @@ package abstractionproject;
  *
  * @author acrist
  */
-public class CardConstructor implements Card {
+public class CardConstructor extends Value {
 
 
         private String name;

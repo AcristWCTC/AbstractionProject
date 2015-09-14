@@ -15,23 +15,19 @@ public class StartUp {
         
         
         
-        Random num = new Random();
-        Scanner keyboard = new Scanner(System.in);
-        
-        
-        Card Ace = new CardConstructor("Ace","Red","Heart",11);
-        Card King = new CardConstructor("King","Red","Heart",10);
-        Card Queen = new CardConstructor("Queen","Red","Heart",10);
-        Card Jack = new CardConstructor("Jack","Red","Heart",10);
-        Card Ten = new CardConstructor("Ten","Red","Heart",10);
-        Card Nine = new CardConstructor("Nine","Red","Heart",9);
-        Card Eight = new CardConstructor("Eight","Red","Heart",8);
-        Card Seven = new CardConstructor("Seven","Red","Heart",7);
-        Card Six = new CardConstructor("Six","Red","Heart",6);
-        Card Five = new CardConstructor("Five","Red","Heart",5);
-        Card Four = new CardConstructor("Four","Red","Heart",4);
-        Card Three = new CardConstructor("Three","Red","Heart",3);
-        Card Two = new CardConstructor("Two","Red","Heart",2);
+        Value Ace = new CardConstructor("Ace","Red","Heart",11);
+        Value King = new CardConstructor("King","Red","Heart",10);
+        Value Queen = new CardConstructor("Queen","Red","Heart",10);
+        Value Jack = new CardConstructor("Jack","Red","Heart",10);
+        Value Ten = new CardConstructor("Ten","Red","Heart",10);
+        Value Nine = new CardConstructor("Nine","Red","Heart",9);
+        Value Eight = new CardConstructor("Eight","Red","Heart",8);
+        Value Seven = new CardConstructor("Seven","Red","Heart",7);
+        Value Six = new CardConstructor("Six","Red","Heart",6);
+        Value Five = new CardConstructor("Five","Red","Heart",5);
+        Value Four = new CardConstructor("Four","Red","Heart",4);
+        Value Three = new CardConstructor("Three","Red","Heart",3);
+        Value Two = new CardConstructor("Two","Red","Heart",2);
         
         
         
