@@ -20,20 +20,11 @@ public class CardConstructor extends Card {
        private int cardNum;
        
 
-    public CardConstructor(String name, String color, String suit, int value, int Cardnum) {
+    public CardConstructor(String name, String color, String suit, int value) {
         this.name = name;
         this.color = color;
         this.suit = suit;
         this.value = value;
-        this.cardNum = cardNum;
-    }
-    
-    public int getCardNum() {
-        return cardNum;
-    }
-    
-    public void setCardNum(int cardNum) {
-        this.cardNum = cardNum;
     }
 
        @Override

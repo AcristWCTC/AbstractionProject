@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package abstractionproject;
+package abstractionproject2;
 
 /**
  *
  * @author acrist
  */
-public interface CardNum {
-    public abstract void setCardNum (int cardNum);
+public interface Card {
+    public abstract void face();
+    public abstract void value();
+
     
-    public abstract int getCardNum();
 }
