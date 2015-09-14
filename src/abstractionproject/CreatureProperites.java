@@ -5,7 +5,6 @@
  */
 package abstractionproject;
 
-import abstractionproject.Card;
 
 /**
  *
