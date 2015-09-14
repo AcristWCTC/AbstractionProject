@@ -10,13 +10,25 @@ package abstractionproject;
  * @author acrist
  */
 public abstract class Card implements Value{
+    
+    private String name;
+    private String color;
+    private String suit;
+    
+    
     public abstract void setName(String name);
     public abstract void setColor(String color);
     public abstract void setSuit (String set);
 
-    public abstract String getName();
-    public abstract String getColor();
-    public abstract String getSuit();
+    public final String getName() {
+        return name;
+    }
+    public final String getColor(){
+        return color;
+    }
+    public final String getSuit(){
+        return suit;
+    }
 
     
     

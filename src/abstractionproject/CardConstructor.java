@@ -17,18 +17,23 @@ public class CardConstructor extends Card {
        private String color;
        private String suit;
        private int value;
+       private int cardNum;
+       
 
-    public CardConstructor(String name, String color, String suit, int value) {
+    public CardConstructor(String name, String color, String suit, int value, int Cardnum) {
         this.name = name;
         this.color = color;
         this.suit = suit;
         this.value = value;
+        this.cardNum = cardNum;
     }
-
-
-       @Override
-    public String getName() {
-        return name;
+    
+    public int getCardNum() {
+        return cardNum;
+    }
+    
+    public void setCardNum(int cardNum) {
+        this.cardNum = cardNum;
     }
 
        @Override
@@ -37,20 +42,10 @@ public class CardConstructor extends Card {
     }
 
        @Override
-    public String getColor() {
-        return color;
-    }
-
-       @Override
     public void setColor(String color) {
         this.color = color;
     }
-
-       @Override
-    public String getSuit() {
-        return suit;
-    }
-
+    
        @Override
     public void setSuit(String suit) {
         this.suit = suit;
