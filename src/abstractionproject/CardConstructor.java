@@ -25,6 +25,7 @@ public class CardConstructor implements Card {
         this.value = value;
     }
 
+
     public String getName() {
         return name;
     }
