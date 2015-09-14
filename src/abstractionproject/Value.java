@@ -9,7 +9,7 @@ package abstractionproject;
  *
  * @author acrist
  */
-public abstract class Value {
+public interface Value {
     public abstract void setValue (int value);
     
     public abstract int getValue();

@@ -9,7 +9,7 @@ package abstractionproject;
  *
  * @author acrist
  */
-public interface Card {
+public abstract class Card implements Value{
     public abstract void setName(String name);
     public abstract void setColor(String color);
 
