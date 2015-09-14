@@ -12,15 +12,13 @@ package abstractionproject;
 public interface Card {
     public abstract void setName(String name);
     public abstract void setColor(String color);
-    public abstract void setSet (String set);
-    public abstract void setEffect (String effect);
-    public abstract void setCovertedManaCost(int cmc);
+    public abstract void setSuit (String set);
+
     
     public abstract String getName();
     public abstract String getColor();
-    public abstract String getSet();
-    public abstract String getEffect();
-    public abstract int getCovertedManaCost();
+    public abstract String getSuit();
+
     
     
 }
