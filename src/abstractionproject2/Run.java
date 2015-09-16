@@ -9,13 +9,12 @@ package abstractionproject2;
  *
  * @author acrist
  */
-import java.util.Random;
 
 public class Run {
 
     public static void main(String[] args) {
 
-        Card[] cards = {
+        Card[] cards ={
             new Ace(),
             new King(),
             new Queen(),
@@ -32,7 +31,9 @@ public class Run {
         };
         
             for(Card c : cards) {
-            c.printOut();
+                c.face();
+                c.value();
+                c.printOut();
             }
 
     }

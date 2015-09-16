@@ -21,7 +21,9 @@ public class Queen implements Card {
     public void value() {
         value = 10;
     }
-           public void printOut(){
-           System.out.println(face +  " " + value);
-       }
+    
+    @Override
+    public void printOut(){
+        System.out.println(face +  " " + value);
+    }
 }
