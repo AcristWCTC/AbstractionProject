@@ -16,12 +16,13 @@ public class Ace implements Card {
     
        public void face(){   
            face = "Ace";  
+           System.out.println("hi");
     }
        public void value(){
            value = 11;
        }
        public void printOut(){
-           System.out.println(face +  " " + value);
+           System.out.println(face +  "  " + value);
        }
     
     
